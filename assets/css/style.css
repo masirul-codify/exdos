@@ -127,6 +127,7 @@
 :root {
   --ct-theme-color: #0057FC;
   --ct-theme-color-2: #FFE815;
+  --ct-common-black: #0A0E1A;
   --ct-black: black;
   --ct-white: white;
   --ct-grey-color: #f6f6f6;
@@ -361,6 +362,10 @@ textarea {
 
 .p-absolute {
   position: absolute;
+}
+
+.ct-black-bg {
+  background-color: var(--ct-common-black);
 }
 
 /*--
@@ -3572,6 +3577,14 @@ textarea {
 
 .pr-100 {
   padding-right: 100px;
+}
+
+.pt-280 {
+  padding-top: 280px;
+}
+
+.pb-180 {
+  padding-bottom: 180px;
 }
 
 .ct-transparent-header {
