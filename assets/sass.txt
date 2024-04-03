@@ -1,0 +1,7 @@
+sass --watch "D:\Web Design Envato - Batch\sass-learn\sass\main.scss":"D:\Web Design Envato - Batch\sass-learn\css\style.css"
+
+sass --watch "D:\THEMEFOREST\Exdos\assets\scss\main.scss":"D:\THEMEFOREST\Exdos\assets\css\style.css"
+
+ sass --watch assets/scss/main.scss:assets/css/style.css
+
+ home About Us service portfolio pages blog contact
