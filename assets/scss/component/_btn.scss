@@ -14,7 +14,7 @@
     -o-border-radius: 5px;
 } 
 .ct-btn-sec{
-    padding: 22px 46px;
+    padding: 17px 46px;
     background: var(--ct-theme-color-2);
     display: inline-block;
     font-size: 18px;
@@ -24,4 +24,7 @@
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    &-lg{
+        padding: 22px 46px;
+    }
 }
