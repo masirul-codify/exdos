@@ -265,20 +265,24 @@ input[type="number"],
 input[type="password"],
 input[type="url"],
 textarea{
-	outline: none;
-	background-color: #fff;
-	height: 56px;
-	width: 100%;
-	line-height: 56px;
-	font-size: 14px;
-	color: var(--ct-common-black);
-	padding-left: 26px;
-	padding-right: 26px;
-	border: 1px solid #E0E2E3;
+    outline: none;
+    background-color: #fff;
+    height: 56px;
+    width: 100%;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 25px;  
+	color:  var(--ct-common-black);;
+    border: 0;
+    border-bottom: 1px solid #57595C;
+    background: transparent;
+    text-transform: uppercase;
+    font-family: var(--ct-font-body);
 
-	// @include ct-placeholder{
-	// 	color: #95999D;
-	// }
+	@include ct-placeholder{
+		color: #5c5757;
+	}
 
 	&:focus{
 		border-color: var(--ct-common-black);

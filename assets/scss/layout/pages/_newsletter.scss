@@ -1,0 +1,27 @@
+@use '../../utils' as *;
+
+.ct-newsletter {
+    &-bg{
+        padding: 80px;
+        border-radius: 20px;
+    }
+    &-box{
+        & form{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        & input{
+            border-color: var(--ct-white);
+            color: var(--ct-white);
+            width: calc(100% - 210px);
+            &:focus{ 
+             border-color: var(--ct-white);
+            }
+            @include ct-placeholder{
+                color: var(--ct-white);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+@mixin ct-placeholder{
+    &::placeholder{
+        @content;
+    }
+    &::-webkit-placeholder{
+        @content;
+    }
+    &:-moz-placeholder{
+        @content;
+    }
+    &::-moz-placeholder{
+        @content;
+    }
+    &::-ms-input-placeholder{
+        @content;
+    }
+}
