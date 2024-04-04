@@ -1,1 +1,104 @@
 @use '../../utils' as *;
+
+.ct-hero{
+    &-title{
+        color: #FFF;
+        font-family: var(--ct-font-body);
+        font-size: 110px;
+        font-style: normal;
+        font-weight: 400; 
+        text-transform: uppercase;
+        margin: 0;
+        & span{ 
+            background: radial-gradient(42.24% 2817.5% at 52.45% 54.17%, rgba(255, 232, 21, 0.95) 0%, #3C7FFF 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text; 
+        }
+        & i{
+            color: #B1B4BA;
+            font-family: var(--ct-font-body);
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 400;
+            display: inline-block;
+            transform: translateY(-5px);
+            -webkit-transform: translateY(-5px);
+            -moz-transform: translateY(-5px);
+            -ms-transform: translateY(-5px);
+            -o-transform: translateY(-5px);
+        }
+    } 
+    &-shape{
+        & img{
+            &.ct-hero{ 
+                &-shape-1 {
+                    bottom: 580px;
+                    right: 190px;
+                    z-index: 1;
+                }
+                &-shape-2 {
+                    right: 300px;
+                    bottom: 130px;
+                    z-index: 1;
+                }
+                &-shape-3{
+                    bottom: 327px;
+                    left: 386px;
+                    z-index: 1;
+                }
+                &-shape-4 {
+                    bottom: 315px;
+                    left: -38px;
+                    z-index: 1;
+                }
+                &-shape-5{
+                    bottom: 570px;
+                    right: 750px;
+                    z-index: 1;
+                }
+            } 
+        }
+    }
+}
+
+.hero-info{
+    color: #B1B4BA;
+    font-family: var(--ct-font-heading);
+    font-size: 15px; 
+    font-weight: 500; 
+    text-transform: uppercase;  
+    height: 100%; 
+    flex-direction: column;  
+    top: 102px;
+    left: -55px;
+    z-index: 2;
+    border-right: 1px ;
+
+    & .line{
+        position: absolute;
+        width: 1px;
+        height: 839px;
+        top: 0;
+        left: 145px; 
+        background: #FFFFFF;
+        opacity: 0.15;
+    }
+    &-text{ 
+        margin-bottom: 117px;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+}
+    &-social{ 
+        margin-bottom: 137px;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg); 
+}
+}
+ 
