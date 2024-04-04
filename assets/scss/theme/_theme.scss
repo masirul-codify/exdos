@@ -1,10 +1,10 @@
 @use '../utils' as *;
 /*-----------------------------------------------------------------------------------
 
-    Template Name: Example HTML Template
-    Author: Theme_Pure
-    Support: help.themepure.net
-    Description: Example HTML Template
+    Template Name: Exdos HTML Template
+    Author: Codify_theme
+    Support: help.codify.net
+    Description: Codify HTML Template
     Version: 1.0.0
 
 -----------------------------------------------------------------------------------
@@ -195,12 +195,12 @@ ul {
 }
 
 p {
-	font-family: var(--ct-ff-p);
-	font-size: 14px;
+	font-family: var(--ct-font-body);
+	font-size: 17px;
 	font-weight: 400;
 	color: var(--ct-text-body);
 	margin-bottom: 15px;
-	line-height: 26px;
+	line-height: 28px;
 }
 
 

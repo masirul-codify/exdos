@@ -3,7 +3,7 @@
 .ct-hero{
     &-title{
         color: #FFF;
-        font-family: var(--ct-font-body);
+        font-family: var(--ct-font-heading);
         font-size: 110px;
         font-style: normal;
         font-weight: 400; 
@@ -17,7 +17,7 @@
         }
         & i{
             color: #B1B4BA;
-            font-family: var(--ct-font-body);
+            font-family: var(--ct-font-heading);
             font-size: 30px;
             font-style: normal;
             font-weight: 400;
@@ -64,7 +64,7 @@
 
 .hero-info{
     color: #B1B4BA;
-    font-family: var(--ct-font-heading);
+    font-family: var(--ct-font-body);
     font-size: 15px; 
     font-weight: 500; 
     text-transform: uppercase;  
