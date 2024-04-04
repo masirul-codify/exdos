@@ -1,114 +1,112 @@
-/*-----------------------------------------------------------------------------------
+:root {
+  --ct-theme-color: #0057FC;
+  --ct-theme-color-2: #FFE815;
+  --ct-common-black: #0A0E1A;
+  --ct-black: black;
+  --ct-white: white;
+  --ct-grey-color: #f6f6f6;
+  --ct-grey-color-2: #f6f6f6;
+  --ct-grey-color-3: #f6f6f6;
+  --ct-grey-color-4: #f6f6f6;
+}
 
-    Template Name: Example HTML Template
-    Author: Theme_Pure
-    Support: help.themepure.net
-    Description: Example HTML Template
-    Version: 1.0.0
+:root {
+  --ct-font-heading: "DM Sans", sans-serif;
+  --ct-font-body: "Federo", sans-serif;
+}
 
------------------------------------------------------------------------------------
+.ct-hero-title {
+  color: #FFF;
+  font-family: var(--ct-font-body);
+  font-size: 110px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+.ct-hero-title span {
+  background: radial-gradient(42.24% 2817.5% at 52.45% 54.17%, rgba(255, 232, 21, 0.95) 0%, #3C7FFF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.ct-hero-title i {
+  color: #B1B4BA;
+  font-family: var(--ct-font-body);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  display: inline-block;
+  transform: translateY(-5px);
+  -webkit-transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
+}
+.ct-hero-shape img.ct-hero-shape-1 {
+  bottom: 580px;
+  right: 190px;
+  z-index: 1;
+}
+.ct-hero-shape img.ct-hero-shape-2 {
+  right: 300px;
+  bottom: 130px;
+  z-index: 1;
+}
+.ct-hero-shape img.ct-hero-shape-3 {
+  bottom: 327px;
+  left: 386px;
+  z-index: 1;
+}
+.ct-hero-shape img.ct-hero-shape-4 {
+  bottom: 315px;
+  left: -38px;
+  z-index: 1;
+}
+.ct-hero-shape img.ct-hero-shape-5 {
+  bottom: 570px;
+  right: 750px;
+  z-index: 1;
+}
 
-/************ TABLE OF CONTENTS ***************
-
-	-----------------
-    01. THEME CSS
-	-----------------
-		1.1 Theme Default
-		1.2 Common Classes
-		1.3 Default Spacing
-
-	-----------------
-    02. COMPONENTS css
-	-----------------
-		2.1 Back to top
-		2.2 Theme Settings
-		2.3 Buttons
-		2.4 Animations
-		2.5 Preloader
-		2.6 Background 
-		2.7 Carousel
-		2.8 Nice Select
-		2.9 Pagination
-		2.10 Offcanvas
-		2.11 Breadcrumb
-		2.12 Accordion
-		2.13 Tab
-		2.14 Modal
-		2.15 Section Title
-		2.16 Search
-		2.17 Hotspot
-		2.18 Ragne Slider
-	-----------------
-    03. HEADER CSS
-	-----------------
-		3.1 Header Style 1
-		3.2 Header Style 2
-		3.3 Header Style 3
-		3.4 Header Style 5
-
-    ---------------------------------
-	04. MENU CSS
-	---------------------------------
-		4.1 Main menu css
-		4.2 Meanmenu css
-		4.3 Mobile css
-		4.4 Category menu css
-
-	---------------------------------
-	05. BLOG CSS
-	---------------------------------
-		5.1 Postbox css
-		5.2 Recent Post css
-		5.3 Sidebar css
-		5.4 Blog css
-		5.5 Blog Grid css
-
-	---------------------------------
-	06. FOOTER CSS
-	---------------------------------
-		6.1 Footer Style 1
-		6.2 Footer Style 2
-		6.3 Footer Style 3
-		6.4 Footer Style 4
-		6.5 Footer Style 5
-
-	---------------------------------
-	07. PAGES CSS
-	---------------------------------
-		7.1 Slider css
-		7.2 About css
-		7.3 Feature css
-		7.4 Subscribe css
-		7.5 Instagram css
-		7.6 Testimonial css
-		7.7 Brand css
-		7.8 CTA css
-		7.9 Login css
-		7.10 Contact css
-		7.11 Error css
-		7.12 Profile css
-
-	---------------------------------
-	08. ECOMMERCE CSS
-	---------------------------------
-		8.1 Ecommerce Common CSS
-		8.2 Cartmini CSS
-		8.3 Cart Modal CSS
-		8.4 Category CSS
-		8.5 Banner CSS
-		8.6 Tooltip CSS
-		8.7 Featured Product CSS
-		8.8 Trending CSS
-		8.9 Product Card CSS
-		8.10 Product Card Style 2 CSS
-		8.11 Product Card Style 3 CSS
-		8.12 Product Card Style 4 CSS
-		8.13 Product Card Style 5 CSS
-		8.14 Product Details CSS
-		8.15 Product Widget CSS
-		8.16 Shop CSS
-		8.17 Filter Offcanvas CSS
-		8.18 Product Quantity CSS
+.hero-info {
+  color: #B1B4BA;
+  font-family: var(--ct-font-heading);
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  height: 100%;
+  flex-direction: column;
+  top: 102px;
+  left: -55px;
+  z-index: 2;
+  border-right: 1px;
+}
+.hero-info .line {
+  position: absolute;
+  width: 1px;
+  height: 839px;
+  top: 0;
+  left: 145px;
+  background: #FFFFFF;
+  opacity: 0.15;
+}
+.hero-info-text {
+  margin-bottom: 117px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}
+.hero-info-social {
+  margin-bottom: 137px;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+}/*# sourceMappingURL=index.css.map */CSS
 		8.19 Cart CSS
 		8.20 Order CSS
 		8.21 Checkout CSS
@@ -139,19 +137,6 @@
 :root {
   --ct-font-heading: "DM Sans", sans-serif;
   --ct-font-body: "Federo", sans-serif;
-}
-
-.ct-btn {
-  padding: 22px 46px;
-  background: var(--ct-theme-color-2);
-  display: inline-block;
-  font-size: 18px;
-  font-family: var(--ct-font-body);
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 
 * {
@@ -3602,211 +3587,4 @@ textarea {
 
 .pb-180 {
   padding-bottom: 180px;
-}
-
-.ct-transparent-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 2;
-}
-
-.ct-main-menu ul li {
-  position: relative;
-  display: inline-block;
-  margin-right: 42px;
-}
-.ct-main-menu ul li a {
-  color: #FFF;
-  font-family: var(--ct-font-body);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  display: inline-block;
-  padding: 36px 0px;
-}
-.ct-main-menu ul li .submenu {
-  position: absolute;
-  top: 105%;
-  left: 0;
-  width: 213px;
-  background-color: #fff;
-  padding: 15px 0;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 999999;
-  transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-}
-.ct-main-menu ul li .submenu li {
-  margin-right: 0;
-  display: block;
-}
-.ct-main-menu ul li .submenu li a {
-  color: #000;
-  display: block;
-  padding: 5px 25px;
-  font-size: 17px;
-  transition: 0.3s;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-}
-.ct-main-menu ul li .submenu li .submenu {
-  top: 105%;
-  left: 100%;
-  opacity: 0;
-  visibility: hidden;
-  z-index: 999999;
-}
-.ct-main-menu ul li .submenu li:hover > a {
-  color: var(--ct-theme-color);
-}
-.ct-main-menu ul li .submenu li:hover > .submenu {
-  opacity: 1;
-  visibility: visible;
-  top: 0;
-}
-.ct-main-menu ul li:hover a {
-  color: var(--ct-theme-color-2);
-}
-.ct-main-menu ul li:hover .submenu {
-  opacity: 1;
-  visibility: visible;
-  top: 100%;
-}
-
-.ct-header-search {
-  margin-right: 30px;
-}
-.ct-header-menu-bar button {
-  padding: 37px 23px;
-  background: #23252D;
-}
-.ct-header-cta {
-  padding: 21px 40px;
-  border-left: 1px solid rgba(255, 255, 255, 0.15);
-}
-.ct-header-cta-icon {
-  margin-right: 15px;
-}
-.ct-header-cta-text span {
-  color: #B1B4BA;
-  font-family: var(--ct-font-heading);
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-}
-.ct-header-cta-text h4 {
-  color: #FFF;
-  font-family: var(--ct-font-body);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 25px;
-}
-.ct-header-border-bottom {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
-}
-
-.ct-hero-title {
-  color: #FFF;
-  font-family: var(--ct-font-body);
-  font-size: 110px;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: uppercase;
-  margin: 0;
-}
-.ct-hero-title span {
-  background: radial-gradient(42.24% 2817.5% at 52.45% 54.17%, rgba(255, 232, 21, 0.95) 0%, #3C7FFF 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-.ct-hero-title i {
-  color: #B1B4BA;
-  font-family: var(--ct-font-body);
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  display: inline-block;
-  transform: translateY(-5px);
-  -webkit-transform: translateY(-5px);
-  -moz-transform: translateY(-5px);
-  -ms-transform: translateY(-5px);
-  -o-transform: translateY(-5px);
-}
-.ct-hero-shape img.ct-hero-shape-1 {
-  bottom: 580px;
-  right: 190px;
-  z-index: 1;
-}
-.ct-hero-shape img.ct-hero-shape-2 {
-  right: 300px;
-  bottom: 130px;
-  z-index: 1;
-}
-.ct-hero-shape img.ct-hero-shape-3 {
-  bottom: 327px;
-  left: 386px;
-  z-index: 1;
-}
-.ct-hero-shape img.ct-hero-shape-4 {
-  bottom: 315px;
-  left: -38px;
-  z-index: 1;
-}
-.ct-hero-shape img.ct-hero-shape-5 {
-  bottom: 570px;
-  right: 750px;
-  z-index: 1;
-}
-
-.hero-info {
-  color: #B1B4BA;
-  font-family: var(--ct-font-heading);
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  height: 100%;
-  flex-direction: column;
-  top: 102px;
-  left: -55px;
-  z-index: 2;
-  border-right: 1px;
-}
-.hero-info .line {
-  position: absolute;
-  width: 1px;
-  height: 839px;
-  top: 0;
-  left: 145px;
-  background: #FFFFFF;
-  opacity: 0.15;
-}
-.hero-info-text {
-  margin-bottom: 117px;
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-}
-.hero-info-social {
-  margin-bottom: 137px;
-  transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=index.css.map */
