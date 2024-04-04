@@ -1,1 +1,9 @@
 @use '../utils' as *;
+
+.ct-section-title{
+    color: #0A0E1A;
+    font-family: var(--ct-font-heading);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400; 
+}

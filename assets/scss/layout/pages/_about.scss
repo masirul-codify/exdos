@@ -1,1 +1,22 @@
 @use '../../utils' as *;
+
+.ct-about-video{
+    &-icon {
+        & a{
+            width: 80px;
+            height: 80px;
+            border: 1px solid #57595C;
+            line-height: 80px;
+            text-align: center;
+            border-radius: 50%;
+            display: inline-block;
+        }
+    }
+
+    & h4{
+        color: #57595C; 
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400; 
+    }
+}

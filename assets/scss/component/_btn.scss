@@ -1,11 +1,24 @@
 @use '../utils' as *;
 
-.ct-btn{
+.ct-btn{    
+    padding: 17px 46px;
+    background: var(--ct-theme-color);
+    display: inline-block;
+    font-size: 18px;
+    font-family: var(--ct-font-heading);
+    border-radius: 5px;
+    color: var( --ct-white);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+} 
+.ct-btn-sec{
     padding: 22px 46px;
     background: var(--ct-theme-color-2);
     display: inline-block;
     font-size: 18px;
-    font-family: var(--ct-font-body);
+    font-family: var(--ct-font-heading);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
